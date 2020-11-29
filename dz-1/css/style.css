@@ -1,0 +1,26 @@
+.menu ul,
+.menu ol{
+    list-style: none;
+}
+.menu > ul{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.623);
+    height: 44px;
+}
+.menu ul li{
+    width: 100px;
+}
+.menu > ul li a{
+    display: block;
+    padding: 10px;
+}
+
+.menu>ul>li>ul{
+    display: none;
+    padding-inline-start: 0px;
+    background-color: rgba(0, 0, 0, 0.623); ;
+}
+.menu li:hover > ul{
+    display: block;
+}
